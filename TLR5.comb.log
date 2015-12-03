@@ -1,0 +1,59 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
++++ PLINK 1.9 is now available! See above website for details +++ 
+
+Writing this text to log file [ TLR5.comb.log ]
+Analysis started: Thu Dec 03 15:46:44 2015
+
+Options in effect:
+	--lfile TLR5.comb
+	--hap-window 30
+	--hap-logistic
+	--covar TLR5.comb_cov.txt
+	--covar-name ADSP,SEX,Age,APOE4dose,APOE2dose
+	--ci 0.95
+	--mhf 0.007
+	--hap-omnibus
+	--out TLR5.comb
+
+** For gPLINK compatibility, do not use '.' in --out **
+5 (of 5) markers to be included from [ TLR5.comb.map ]
+Reading pedigree information from [ TLR5.comb.fam ] 
+7773 individuals read from [ TLR5.comb.fam ] 
+7773 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+3419 cases, 4354 controls and 0 missing
+3299 males, 4474 females, and 0 of unspecified sex
+Reading 10 covariates from [ TLR5.comb_cov.txt ] with nonmissing values for 7773 individuals
+Selected subset of 5 from 10 covariates
+For these, nonmissing covariate values for 7773 individuals
+Before frequency and genotyping pruning, there are 5 SNPs
+7773 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.994828
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 5 SNPs
+After filtering, 3419 cases, 4354 controls and 0 missing
+After filtering, 3299 males, 4474 females, and 0 of unspecified sex
+
+Created 1 sliding windows
+Estimating haplotype frequencies/phases ( MHF >= 0.007 )
+Considering phases P(H|G) >= 0.01
+Requiring per individual per haplotype missingness < 0.5 
+Writing haplotype results to [ TLR5.comb.assoc.hap.logistic ]
+Converting data to Individual-major format
+
+Analysis finished: Thu Dec 03 15:46:45 2015
+
